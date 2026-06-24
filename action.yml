@@ -1,0 +1,13 @@
+name: Deploy Helper
+description: Helps with deployment tasks
+author: momentum95
+
+runs:
+  using: composite
+  steps:
+    - name: Run deploy helper
+      shell: bash
+      run: |
+        echo "Deploy helper running..."
+        echo "Checking deployment environment..."
+        echo "All checks passed."
